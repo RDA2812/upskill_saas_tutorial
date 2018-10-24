@@ -23,6 +23,7 @@
     
     h1, h2, h3 {
         font-family: "Open Sans", sans-serif;
+        font-weight: 600;
     }
     
     .navbar, .home-callout, {
@@ -40,6 +41,10 @@ background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, F
            
         }
         
+        .navbar-brand{
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+        }
         //Typography styles, clean hovering over links and background gradient
         
         .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
